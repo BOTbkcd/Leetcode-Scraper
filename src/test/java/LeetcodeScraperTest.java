@@ -136,7 +136,7 @@ public class LeetcodeScraperTest {
     void login() throws InterruptedException {
         String username = "";
         String password = "";
-        String startQuestionURL = "";
+        String startQuestionURL = "https://leetcode.com/accounts/login/";
         driver.get(startQuestionURL);
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(20));

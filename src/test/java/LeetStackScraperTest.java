@@ -19,7 +19,7 @@ import java.util.List;
 import static java.lang.invoke.MethodHandles.lookup;
 import static org.slf4j.LoggerFactory.getLogger;
 
-public class LeetcodeScraperTest {
+public class LeetStackScraperTest {
     static final Logger log = getLogger(lookup().lookupClass());
 
     WebDriver driver;
@@ -101,7 +101,7 @@ public class LeetcodeScraperTest {
         login();
         Thread.sleep(3000);
 
-        driver.get("https://leetcode.com/explore/featured/card/dynamic-programming/630/an-introduction-to-dynamic-programming/4034/");
+        driver.get("https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3221/");
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(2013
         ));
